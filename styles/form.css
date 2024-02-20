@@ -1,0 +1,34 @@
+.Form{
+    margin: auto;
+    width: 30%;
+    /* border: 1px solid #aaa; */
+    padding: 2% 0;
+}
+.Form h1{
+    text-align: center;
+    font-size: 3vh;
+}
+.Form .form-set{
+    margin-top: 2.5vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+}
+.Form .form-set label{
+    padding: 2.5% 0;
+}
+.Form .form-set input{
+    height: 5vh;
+    border-radius:10px;
+    outline: none;
+    border: 1px solid #aaa;
+}
+
+.Form button{
+    width: 80%;
+    margin: 3% 10% 0;
+    height: 4vh;
+    background: linear-gradient(to top right,rgb(68, 149, 224), rgb(16, 72, 145),rgb(6, 12, 59) );
+    color: white;
+}

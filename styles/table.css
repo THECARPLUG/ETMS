@@ -1,0 +1,43 @@
+.Table{
+    width: 100%;
+    height: 100%;
+}
+.thead{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 10%;
+}
+.thead .tr{
+    width: 100%;
+    height: 95%;
+    background: #0B1215;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.6vh;
+    border-radius: 15px;
+}
+.col1{}
+.col2{}
+.col3{}
+.col4{}
+.col5{}
+
+.tbody{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 90%;
+}
+.tbody .tr{
+    width: 100%;
+    height: 8%;
+    background: #ddd;
+    color: #0c0c0c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1% 0 0;
+    border-radius: 25px;
+    font-size: 1.6vh;
+}
